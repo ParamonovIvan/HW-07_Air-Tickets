@@ -1,4 +1,4 @@
-﻿import { RootState } from '.';
+﻿import { RootState } from './store';
 import { ticketsAdapter } from './ticketsSlice';
 
 export const ticketsSelectors = ticketsAdapter.getSelectors<RootState>(
