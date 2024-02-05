@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# Проект: «Приложение для поиска авиабилетов: React + Redux Toolkit»
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Задача проекта:
 
-Currently, two official plugins are available:
++ Создать приложение для поиска авиабилетов с помощью React, Redux Toolkit и TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Особенности приложения:
 
-## Expanding the ESLint configuration
++ Работа с фейковым серверным API с помощью async-thunk.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
++ Сортировка билетов по цене, длительности перелета и количеству пересадок.
 
-- Configure the top-level `parserOptions` property like this:
++ Фильтрация по авиакомпаниям.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
++ Фильтрация по количеству пересадок.
+
+### Фунциональные требования:
+
++ Проект должен быть создан с помощью Vite или Create React App, исправно запускаться с помощью команды npm start или nmp run dev и собираться с помощью npm run build.
+
++ Проект использует Redux Toolkit.
+
++ Требования к адаптивной верстке - приложение в целом соответствует макету. Версии для ПК и мобильных устройств работают исправно.
+
++ Используются дополнительные методы из Redux Toolkit, такие как createAsyncThunl для запросов к API, createEntituAdapter для работы с массивными данными.
+
++ Проект написан на Typescript.
+
+### Иснтрукция для разработки и тестирования
+
++ npm
+
+```
+npm i
+npm run dev
+npm run build
+```
++ yarn
+
+```
+yarn add
+yarn dev
+yarn build
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Результат работы:
+
+#### Ссылка на страницу книжного интернет-магазина:
+
+• 
+
+#### Внешний вид страницы книжного интернет-магазина
+
